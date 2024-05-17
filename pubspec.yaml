@@ -43,6 +43,7 @@ dev_dependencies:
     sdk: flutter
   provider: ^6.1.2
   shared_preferences: ^2.2.3
+  flutter_email_sender: ^6.0.3
 
 flutter_launcher_icons:
   android: "launcher_icon"
