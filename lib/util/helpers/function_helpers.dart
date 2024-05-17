@@ -7,6 +7,11 @@ class AppHelperFunctions {
     Navigator.push(context, MaterialPageRoute(builder: (_) => screen));
   }
 
+  static void navigateAndReScreen(BuildContext context, Widget screen) {
+    Navigator.pushReplacement(
+        context, MaterialPageRoute(builder: (_) => screen));
+  }
+
   static bool isDarkMode(BuildContext context) {
     return Theme.of(context).brightness == Brightness.dark;
   }

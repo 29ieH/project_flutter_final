@@ -18,12 +18,14 @@ class AppSizes {
   static const double fontSizeMd = 16.0;
   static const double fontSizeLg = 18.0;
   // Button size
-  static const double buttonHeigh = 18.0;
+  static const double buttonHeigh = 48.0;
   static const double buttonRadius = 12.0;
   static const double buttonWidth = 120.0;
   static const double buttonElevation = 4.0;
   // Appbar Heigh
   static const double appBarHeight = 56.0;
+  // Navigate Heigh
+  static const double NavigateHight = 40;
   // Image sizes
   static const double imageThumbSize = 80.0;
   // Default spacing between sections
@@ -34,4 +36,6 @@ class AppSizes {
   static const double borderRadiusSm = 4.0;
   static const double borderRadiusMd = 8.0;
   static const double borderRadiusLg = 12.0;
+  // TextFiled Size
+  static const double textFiledSize = 52;
 }

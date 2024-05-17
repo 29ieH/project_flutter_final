@@ -1,5 +1,13 @@
 class AppValidators {
   AppValidators._();
+
+  static String? validateUserName(String? value) {
+    if (value == null || value.isEmpty) {
+      return 'Username is required.';
+    }
+    return null;
+  }
+
   static String? validateEmail(String? value) {
     if (value == null || value.isEmpty) {
       return 'Email is required.';
@@ -17,6 +25,16 @@ class AppValidators {
     }
     if (value.length < 6) {
       return 'Password must be at least 6 characters long.';
+    }
+    return null;
+  }
+
+  static String? validateCofirmPassword(String? value, String psw) {
+    if (value == null || value.isEmpty) {
+      return 'Confirm password is required.';
+    }
+    if (value.trim() != psw.trim()) {
+      return 'Password does not match.';
     }
     return null;
   }

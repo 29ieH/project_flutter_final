@@ -22,7 +22,7 @@ class AppTheme {
       brightness: Brightness.dark,
       primaryColor: const Color(0xFFB25D0F),
       scaffoldBackgroundColor: Colors.black,
-      textTheme: AppTextTheme.lightTextTheme,
+      textTheme: AppTextTheme.darkTextTheme,
       inputDecorationTheme: AppTextFieldTheme.darkInputDecorationTheme,
       appBarTheme: AppAppBarTheme.darkAppBarTheme,
       elevatedButtonTheme: AppElevatedButtonTheme.darkElevatedButtonTheme);
